@@ -1,0 +1,418 @@
+body{
+    height: 3000px;
+    background-image: url(/img/fon/fon111.png);
+}
+.section-center__item1 {
+  color: yellow;
+  font-size: 15px;
+}
+.section-center__item1 h1, h2, h3, h4, h5, h6{
+  color: red;
+  font-size: 20px;
+}
+/* ------логотип готов----- */
+header{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 76px;
+}
+.ssilki{
+    display: flex;
+    flex-direction: row;
+    background: white;
+    width: 100%;
+    padding-left: 10px;
+    height: 28px;
+    background: #1D1F21;
+}
+.ssilki a{
+    margin: 4px 8px;
+    text-decoration: none;
+    font-size: 13px;
+    color: #40FF00;
+}
+/* ------ссылки----- */
+.header{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 48px;
+    /* background: #1E1E1E; */
+    /* background: #000; */
+    /* background: #FF0097; */
+    background: #000;
+    border: 1px solid #40FF00;
+
+    /* margin-top: -46px; */
+}
+.logo{
+    width: 160px;
+    display: flex;
+    flex-direction: row;
+    margin-left: 130px;
+    padding-left: 10px;
+    /* background: #000; */
+    /* border: 1px solid #51FF00; */
+}
+.logotyp{
+    display: flex;
+    flex-direction: column;
+    margin: 3px 0;
+    /* background: green; */
+}
+
+.logotyp a {
+    /* color: #51FF00; */
+    color: #15FF00;
+    font-size: 15px;
+    font-weight: 900;
+    margin: -4px auto;
+    font-family: 'Stalinist One', sans-serif;
+    text-decoration: none;
+}
+.header .logo:hover {
+    background: #15FF00;
+    /* border: 1px solid #40FF00; */
+
+}
+.header .logo:hover .logo-name a{
+    color: #000;
+    font-weight: 700;
+}
+.header .logo:hover .logotyp a{
+    color: #000;
+}
+
+.logo-name{
+    display: flex;
+    flex-direction: column;
+}
+.logo-name a{
+    height: 100%;
+    color: #15FF00;
+    font-size: 15px;
+    font-size: 17px;
+    font-weight: 600;
+    /* margin: 0 10px; */
+    padding: 10px 7px;
+    text-decoration: none;
+}
+/* ------------сообщения ---------- */
+.contain-message{
+  display: flex;
+  flex-direction: row;
+  margin-left: 100px;
+  width: 45%;
+  /* border: 1px solid #000; */
+}
+.contain-message__item{
+  width: 70px;
+  height: 100%;
+  /* border: 1px solid green; */
+  /* text-align: center; */
+}
+.contain-message a{
+  text-decoration: none;
+}
+.contain-message a i {
+  width: 100%;
+  height: 100%;
+  /* display: block; */
+  padding-left: 20px;
+  padding-top: 5px;
+  color: #15FF00;
+  font-size: 25px;
+}
+.contain-p{
+  width: 100%;
+  height: 35%;
+  /* border: 1px solid #000; */
+  margin-top: -17px;
+}
+.contain-p p{
+  font-size: 11px;
+  font-weight: 500;
+  text-align: center;
+  color: #15FF00;
+}
+/* -----сообщения:hover ---- */
+.contain-message__item:hover {
+  background: #15FF00;
+}
+.contain-message__item:hover .fa{
+  color:#000;
+}
+.contain-message__item:hover .contain-p p{
+  color:#000;
+  font-weight: 900;
+}
+
+/* ------search--------- */
+.search {
+    width: 150px;
+    height: 60%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 5px;
+    margin-top: auto;
+    margin-bottom: auto;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.search input{
+    width: 70%;
+    height: 100%;
+    float: left;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+}
+.search button{
+    width: 30%;
+    height: 100%;
+    float: right;
+    border-radius: 0 5px 5px 0;
+    font-size: 15px;
+}
+
+/* ------section--------- */
+.section-center{
+  display: flex;
+  flex-direction: row;
+  border: 2px solid #000;
+  margin-top: 76px;
+}
+.section-center__item1{
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  /* margin:1% 10%; */
+  margin-top: 5px;
+  margin-left: 8%;
+  border: 1px solid #6AFF00;
+  background: #000;
+}
+.section-center__item2{
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  margin-top: 5px;
+  margin-left: 5px;
+  border: 1px solid #15FF00;
+  background: #47484B;
+}
+.bg-black{
+  background: #000;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+}
+.border-salat{
+  width: 100%;
+  height: 100%;
+  background: #21252B;
+  border: 1px solid #15FF00;
+}
+/* --------------- */
+.contain-left1{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px;
+  /* border: 2px solid green; */
+  background: #000;
+}
+
+.avatar-img{
+  background: #000;
+  margin-bottom: 10px;
+}
+
+.menuFoto{
+  margin-top: -26%;
+  height: 60px;
+  margin-bottom: 10px;
+  background: rgba(0,0,0,0.3);
+  visibility: collapse;
+  text-align: center;
+}
+.input-container label{
+  width: 60%;
+  height: 30px;
+  border: 2px solid #FBFF00;
+  border-radius: 10px;
+  background: rgba(0,0,0,1);
+  color: #FBFF00;
+  font-weight: bold;
+  outline: none;
+}
+
+#avatar__loader{
+  position: absolute;
+  top: -9999px;
+  left: -9999px;
+}
+#showMenuFoto{
+  color: #6AFF00;
+}
+.menuFoto #formFile button{
+  width: 60%;
+  height: 30px;
+  border: 2px solid #FBFF00;
+  border-radius: 10px;
+  background: rgba(0,0,0,1);
+  color: #FBFF00;
+  font-weight: bold;
+  outline: none;
+}
+.contain-left1 button{
+  width: 99%;
+  height: 30px;
+  border: 2px solid #FBFF00;
+  border-radius: 5px;
+  background: rgba(0,0,0,1);
+  color: #FBFF00;
+  font-weight: bold;
+  outline: none;
+}
+
+.userfoto{
+    width: 100%;
+    height: 250px;
+    margin: 0 auto;
+    border: 1px solid #6AFF00;
+}
+.contain-left1:hover .menuFoto {
+  visibility: visible;
+}
+
+/* --------------- */
+/* .anketa-button{
+  width: 100%;
+  height: 40px;
+  margin-top: 9px;
+  background: rgba(0,0,0,1);
+} */
+
+/* ------contain-left2--------- */
+.contain-left2{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 2px solid yellow;
+}
+.contain__item-column{
+  /* background: red; */
+  border: 5px solid black;
+}
+
+.userName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  color:yellow;
+}
+/* ------menuVertical--------- */
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+.menuVertical__drop a{
+text-decoration:none;
+color: yellow;
+}
+.menuVertical{
+  width: 100%;
+  border: 1px solid #6AFF00;
+    /* background: red; */
+}
+.menuVertical__list{
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  /* border: 1px solid #fff; */
+}
+.menuVertical__list-name{
+  display: flex;
+  flex-direction: row;
+  width: 45%;
+  height: 30px;
+  margin-bottom: 10px;
+  font-weight: 700;
+  /* background: #fff; */
+  border: 1px solid #6AFF00;
+}
+.menuVertical__list-name i{
+  font-size: 20px;
+  margin: 4px 7px ;
+  /* background-image: url(img/fon/fon111.png); */
+}
+.menuVertical__drop{
+  position: absolute;
+  width: 151px;
+  padding-left: 0;
+  display: none;
+  left: 250px;
+  /* top: -9999px; */
+}
+.menuVertical__drop li{
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  border: 1px solid #6AFF00;
+  transition: 0.5s all;
+  /* border: 1px solid blue; */
+}
+.menuVertical__list:hover .menuVertical__drop{
+  /* transition: 0.9s all; */
+  display: block;
+}
+  /* ---------------fotoalbum----------------*/
+  /* .contain__foto{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+  } */
+  .contain__foto{
+    /* width: 776px; */
+    width: 100%;
+    /* display: flex; */
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    display: none;
+    transition: 0.5s;
+
+    /* position: absolute; */
+    border: 1px solid red;
+    /* top: -1em; */
+  }
+  .contain__test{
+    display: none;
+  }
+
+  .menuVertical__list-name:hover .contain__foto{
+    opacity: 1;
+    top: 20px;
+  }
+.foto-item{
+  margin: 10px auto 0px auto;
+  width: 250px;
+  height: 200px;
+  border: 1px solid #6AFF00;
+}
+.contain__foto-active {
+  display: flex;
+}
+.contain-ddd{
+  display: flex;
+}

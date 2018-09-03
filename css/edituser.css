@@ -1,0 +1,67 @@
+body{
+  background-image: url(/img/fon/fon111.png);
+}
+.zagolovok:first-child{
+  margin-top: 0;
+}
+.contain__item{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+  /* border: 2px solid #000; */
+  /* padding-left: 5px; */
+  justify-content: space-between;
+  color: yellow;
+  margin: 2px 0;
+}
+.zagolovok{
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #FF0097;
+}
+.zagolovok h3{
+  display: flex;
+  justify-content: center;
+}
+
+.userName{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+#firstName{
+
+}
+.userData input{
+  width: 55%;
+  border: 2px solid #FF0097;
+  outline: none;
+}
+.userSex{
+  width: 55%;
+}
+.maritalStatus{
+  width: 55%;
+}
+.birthday{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 55%;
+}
+.visibleList {
+  width: 60%;
+  margin: 0 auto;
+  border: 2px solid #fff;
+}
+.contain__item select{
+  border: 2px solid #FF0097;
+}
+.saveuserdata{
+  width: 200px;
+  margin: 10px auto;
+  border: 2px solid yellow;
+  background: #000;
+  color: yellow;
+}
+/* ------------------------ */

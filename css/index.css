@@ -1,0 +1,45 @@
+body{
+  background-image: url(/img/fon/fon111.png);
+}
+
+.contain{
+    width: 300px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.contain__item{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    outline: none;
+}
+.contain__item input{
+    border: 3px solid blueviolet;
+    border-radius: 5px;
+    text-align: center;
+    outline: none;
+    height: 30px;
+
+}
+.contain__item button{
+    margin-top: 20px;
+    background: #4184FF;
+    outline: none;
+    border: 2px solid #2344FF;
+    border-radius: 5px;
+
+    border-bottom: 5px solid #2344FF;
+    height: 40px;
+    text-align: center;
+
+}
+.contain__item button:active{
+    margin-top: 22px;
+    background: #8297FF;
+    height: 38px;
+    border-bottom: 2px solid #2344FF;
+    /* outline: none; */
+
+}
